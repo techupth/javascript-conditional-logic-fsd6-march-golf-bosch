@@ -2,6 +2,9 @@ let favoriteBooks = [];
 
 function addFavoriteBook(bookName) {
   // Start coding here !
+  if (bookName.split(" ").includes("Beauty") == true) {
+    favoriteBooks.push(bookName);
+  }
 }
 
 // Example case

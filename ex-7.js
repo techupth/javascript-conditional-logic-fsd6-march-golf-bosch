@@ -1,5 +1,5 @@
 //Start coding here
-const greeting = "Hello ! 😁";
+const greeting = () => "Hello ! 😁";
 
 greeting();
 
