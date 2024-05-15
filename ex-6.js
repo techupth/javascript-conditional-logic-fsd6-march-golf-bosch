@@ -2,6 +2,17 @@ let favoriteBooks = [];
 
 function addFavoriteBook(bookName) {
   // Start coding here !
+  let isFavoriteBook = bookName.includes("Beauty")  
+  switch(isFavoriteBook){
+    case true:
+    favoriteBooks.push(bookName);
+    break;
+    case false:
+    console.log("Not my fevorite");
+    break;
+    default:
+      console.log("Not my fevorite");
+  }
 }
 
 // Example case
